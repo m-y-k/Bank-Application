@@ -41,7 +41,7 @@ public class ICICI implements BankInterface{
             String message = money + " deducted from your account successfully";
             return message;
         }
-        return "incorrect password";
+        return "Incorrect password";
     }
 
     @Override
@@ -51,7 +51,7 @@ public class ICICI implements BankInterface{
             String message = "Password updated";
             return message;
         }
-        return "incorrect password";
+        return "Incorrect password";
     }
 
     @Override
